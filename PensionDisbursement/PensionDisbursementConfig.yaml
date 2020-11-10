@@ -1,1 +1,33 @@
-﻿
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pensiondisbursementconfig-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: Pensiondisbursementconfig
+  template:
+    metadata:
+      labels:
+        app: Pensiondisbursementconfig
+    spec:
+      containers:
+      - name: pensiondisbursementrepos
+        image: 848954mfpecr.azurecr.io/pensiondisbursementrepos:latest
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: dsconfigsn
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: pensiondisbursementconfig
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: Pensiondisbursementconfig

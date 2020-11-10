@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Cognizant Post Joining\\MFPE-Backup\\PensionDisbursement\\PensionDisbursement.csproj": {}
+    "E:\\Cognizant Post Joining\\MFPE\\PensionDisbursementAPI\\PensionDisbursement\\PensionDisbursement.csproj": {}
   },
   "projects": {
-    "E:\\Cognizant Post Joining\\MFPE-Backup\\PensionDisbursement\\PensionDisbursement.csproj": {
+    "E:\\Cognizant Post Joining\\MFPE\\PensionDisbursementAPI\\PensionDisbursement\\PensionDisbursement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Cognizant Post Joining\\MFPE-Backup\\PensionDisbursement\\PensionDisbursement.csproj",
+        "projectUniqueName": "E:\\Cognizant Post Joining\\MFPE\\PensionDisbursementAPI\\PensionDisbursement\\PensionDisbursement.csproj",
         "projectName": "PensionDisbursement",
-        "projectPath": "E:\\Cognizant Post Joining\\MFPE-Backup\\PensionDisbursement\\PensionDisbursement.csproj",
+        "projectPath": "E:\\Cognizant Post Joining\\MFPE\\PensionDisbursementAPI\\PensionDisbursement\\PensionDisbursement.csproj",
         "packagesPath": "C:\\Users\\DIPIKA\\.nuget\\packages\\",
-        "outputPath": "E:\\Cognizant Post Joining\\MFPE-Backup\\PensionDisbursement\\obj\\",
+        "outputPath": "E:\\Cognizant Post Joining\\MFPE\\PensionDisbursementAPI\\PensionDisbursement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DIPIKA\\AppData\\Roaming\\NuGet\\NuGet.Config",
